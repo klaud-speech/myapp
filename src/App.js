@@ -1,8 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
+    <>
+    <h1> Hello World.</h1>
+    <p>This is my first React.</p>    
+    </>
+
+
+    /*
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,10 +23,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello Sahngwoon
         </a>
       </header>
     </div>
+    */
   );
 }
 
